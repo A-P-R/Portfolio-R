@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REMEMBER</title>
+    <!-- Resource hints for faster page loads -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preload" href="styles.css?v=1.1" as="style">
+    <link rel="preload" href="images/hero/hero-bg.jpg" as="image">
+    <!-- Preload navigation pages -->
+    <link rel="prefetch" href="my-study.html">
+    <link rel="prefetch" href="my-hobbies.html">
+    <link rel="prefetch" href="my-music.html">
+    <link rel="prefetch" href="my-house.php">
+    <link rel="stylesheet" href="styles.css?v=1.1">
+</head>
+<body>
+    <!-- Netflix-style loader (CSS-only) -->
+    <div class="netflix-loader">
+        <div class="netflix-loader-container">
+            <div class="netflix-loader-logo">AAYUSH PANDEY</div>
+            <div class="netflix-loader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="logo">AAYUSH PANDEY</a>
+        <nav class="navigation">
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
+            <label for="mobile-menu-toggle" class="mobile-menu-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="my-study.html">My Study</a></li>
+                <li><a href="my-hobbies.html">My Hobbies</a></li>
+                <li><a href="my-music.html">My Music</a></li>
+                <li><a href="my-house.php">My House</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-container" style="background-image: url('images/hero/hero-bg.jpg');">
+        <div class="hero-content">
+            <h1 class="hero-title">Aayush Pandey</h1>
+            <h2 class="hero-subtitle">IT Student & Aspiring Python Developer</h2>
+            <a href="#bio" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Biography Section -->
+    <section id="bio" class="bio-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="bio-content">
+                <p>
+                    Welcome to my portfolio website! I am <strong>Aayush Pandey</strong>, a passionate and curious web developer currently pursuing my Bachelor's degree in Information Technology in Sydney, Australia. I am in the learning phase of my journey and actively building skills in both frontend and backend development.
+                </p>
+                <hr>
+                <p>
+                    My interest in computer science began during my school years, and ever since then, I've been exploring the tech world with a growing fascination. What started as curiosity turned into dedication, and now I'm working towards becoming a skilled backend developer — particularly as a <em>Python developer</em>. At the same time, I'm also learning frontend technologies like <em>HTML</em>, <em>CSS</em>, and <em>JavaScript</em> to build complete, responsive web applications.
+                </p>
+                <hr>
+                <p>
+                    I believe in the <u>power of learning</u> and <u>consistency</u>. As a fast learner with a deep desire to grow, I enjoy working on different aspects of development and constantly seek opportunities to expand my knowledge.
+                </p>
+                <hr>
+                <p>
+                    When I'm not coding, you can often find me playing PUBG with my friends or spending time reflecting, as I'm also a spiritual person who values peace and personal growth. I'm excited to continue this journey and embrace every opportunity that helps me become better, both technically and personally.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects (Netflix-style Grid) -->
+    <section class="row">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-container">
+                <div class="grid">
+                    <div class="card">
+                        <img src="images/student-management.jpg" alt="Student Management System" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">Student Management System</h3>
+                            <p class="card-text">A group project developed during my studies, featuring student data management and reporting functionality.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/data-analysis.jpg" alt="Python Project" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">Python Data Analysis Tool</h3>
+                            <p class="card-text">A Python application for analyzing and visualizing data with interactive dashboards.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/automation.jpg" alt="Python Automation" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">Python Automation Scripts</h3>
+                            <p class="card-text">Collection of automation scripts for file management, data processing, and task scheduling.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sidebar Links -->
+    <section class="row">
+        <div class="container">
+            <h2 class="section-title">External Resources</h2>
+            <div class="sidebar">
+                <ul class="sidebar-links">
+                    <li>
+                        <img src="images/github-logo.png" alt="GitHub" onerror="this.src='https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/github.svg';this.style.filter='invert(1)';this.style.width='24px';">
+                        <a href="https://github.com/A-P-R" target="_blank">GitHub Profile</a>
+                    </li>
+                    <li>
+                        <img src="images/linkedin-logo.png" alt="LinkedIn" onerror="this.src='https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/linkedin.svg';this.style.filter='invert(1)';this.style.width='24px';">
+                        <a href="https://www.linkedin.com/in/aayush-pandey-49b903283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn Profile</a>
+                    </li>
+                    <li>
+                        <img src="images/instagram-logo.png" alt="Instagram" onerror="this.src='https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/instagram.svg';this.style.filter='invert(1)';this.style.width='24px';">
+                        <a href="https://www.instagram.com/_aayush_rem/" target="_blank">Instagram Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Email: aayushp309@gmail.com</li>
+                        <li>Phone: +61 234 567 890</li>
+                        <li>Location: Sydney, Australia</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="my-study.html">My Study</a></li>
+                        <li><a href="my-hobbies.html">My Hobbies</a></li>
+                        <li><a href="my-music.html">My Music</a></li>
+                        <li><a href="my-house.php">My House</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Social</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/aayush-pandey-49b903283" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/A-P-R" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.instagram.com/_aayush_rem/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023-2025 Aayush Pandey. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
